@@ -19,7 +19,7 @@ main {
 .step-box {
   width: 300px;
   margin-right: 30px;
-  padding: 10px;
+  padding: 10px; 
   position: relative;
   background-color: #eee;
 }
@@ -68,13 +68,12 @@ footer {
 
 @media screen and (max-width: 768px) {
   main {
+    margin:50px auto;
     display: flex;
     flex-direction:column;
   }
   .step-box { 
-width:90%;
-margin-bottom: 20px; 
-
+    width:90%;
+    margin-bottom: 20px; 
  }
-  
 }
